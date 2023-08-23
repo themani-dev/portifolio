@@ -131,6 +131,36 @@
   );
 }
 
+/* --------------------------------------------------------------- */
+/* hover effect on tech stack */
+
+.technology-container {
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.technology-container:hover {
+  transform: scale(1.3); /* Increase size on hover */
+}
+
+.technology-tooltip {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.technology-container:hover .technology-tooltip {
+  opacity: 1; /* Show tooltip on hover */
+}
+/* --------------------------------------------------------------- */
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
