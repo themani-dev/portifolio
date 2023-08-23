@@ -11,7 +11,8 @@ import {
   nyeusi,
   coverhunt,
   kelhel,
-  microverse,
+
+  infosys,
 
   airflow,
   dbt,
@@ -23,6 +24,9 @@ import {
   kafka,
   mongodb,
   mysql,
+  tableau,
+  powerbi,
+  snowflake,
 } from '../assets';
 
 export const navLinks = [
@@ -77,12 +81,12 @@ const technologies = [
     icon: airflow,
   },
   {
-    name: 'Tableu',
-    icon: python,
+    name: 'Tableau',
+    icon: tableau,
   },
   {
     name: 'PowerBI',
-    icon: python,
+    icon: powerbi,
   },
   {
     name: 'PySpark',
@@ -110,7 +114,7 @@ const technologies = [
   },
   {
     name: 'Snowflake',
-    icon: python,
+    icon: snowflake,
   },
   {
     name: 'git',
@@ -135,7 +139,7 @@ const experiences = [
   {
     title: 'Data Engineer',
     company_name: 'Infosys',
-    icon: microverse,
+    icon: infosys,
     iconBg: '#333333',
     date: 'Feb 2020 - July 2022',
   },

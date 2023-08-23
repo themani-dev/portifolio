@@ -36,11 +36,14 @@ import mysql from './tech/mysql.png';
 import postgresql from './tech/postgresql.png';
 import python from './tech/python.png';
 import raspberry from './tech/raspberry.png';
+import powerbi from './tech/powerbi.png';
+import snowflake from './tech/snowflake.png';
+import tableau from './tech/tableau.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import infosys from './company/infosys.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -84,6 +87,9 @@ export {
   python,
   raspberry,
   git,
+  powerbi,
+  tableau,
+  snowflake,
 
   komikult,
   leaderboard,
@@ -94,5 +100,6 @@ export {
   coverhunt,
   dcc,
   kelhel,
-  microverse,
+
+  infosys,
 };
