@@ -6,5 +6,6 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
+import Blog from './Blog';
 
-export { Hero, Navbar, About, Tech, Experience, Projects, Contact, BallCanvas };
+export { Hero, Navbar, About, Tech, Experience, Projects, Contact, Blog, BallCanvas };

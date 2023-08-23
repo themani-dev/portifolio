@@ -10,7 +10,6 @@ import {
   movie,
   nyeusi,
   coverhunt,
-  dcc,
   kelhel,
   microverse,
 
@@ -24,7 +23,6 @@ import {
   kafka,
   mongodb,
   mysql,
-  raspberry,
 } from '../assets';
 
 export const navLinks = [
@@ -56,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Data Analytic',
+    title: 'Data Analytics',
     icon: ux,
   },
   {
@@ -75,12 +73,16 @@ const technologies = [
     icon: dbt,
   },
   {
-    name: 'AWS',
+    name: 'Apace Airflow',
+    icon: airflow,
+  },
+  {
+    name: 'Tableu',
     icon: python,
   },
   {
-    name: 'Apace Airflow',
-    icon: airflow,
+    name: 'PowerBI',
+    icon: python,
   },
   {
     name: 'PySpark',
@@ -99,64 +101,52 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: 'Tableu',
-    icon: python,
-  },
-  {
     name: 'postgresql',
     icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'PowerBI',
-    icon: python,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
   {
     name: 'MongoDB',
     icon: mongodb,
   },
   {
-    name: 'Raspberry PI',
-    icon: raspberry,
+    name: 'Snowflake',
+    icon: python,
   },
+  {
+    name: 'git',
+    icon: git,
+  },
+
+  {
+    name: 'docker',
+    icon: docker,
+  },
+
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Firmware Developer',
+    company_name: 'Glean Solutions',
     icon: coverhunt,
     iconBg: '#333333',
     date: 'Aug 2021 - Feb 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Data Engineer',
+    company_name: 'Infosys',
     icon: microverse,
     iconBg: '#333333',
     date: 'Mar 2022 - May 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Senior Data Engineer',
+    company_name: 'Freelancing',
     icon: kelhel,
     iconBg: '#333333',
     date: 'May 2022 - Oct 2022',
   },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+
 ];
 
 const projects = [
