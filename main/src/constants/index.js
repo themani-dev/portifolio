@@ -130,21 +130,21 @@ const experiences = [
     company_name: 'Glean Solutions',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Nov 2018 - Jan 2020',
   },
   {
     title: 'Data Engineer',
     company_name: 'Infosys',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Feb 2020 - July 2022',
   },
   {
-    title: 'Senior Data Engineer',
+    title: 'Data Engineer',
     company_name: 'Freelancing',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'July 2022 - Present',
   },
 
 ];
