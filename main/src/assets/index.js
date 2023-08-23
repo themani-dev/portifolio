@@ -37,19 +37,6 @@ import postgresql from './tech/postgresql.png';
 import python from './tech/python.png';
 import raspberry from './tech/raspberry.png';
 
-
-import css from './tech/css.png';
-import figma from './tech/figma.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import rubyrails from './tech/rubyrails.png';
-
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
@@ -96,19 +83,7 @@ export {
   postgresql,
   python,
   raspberry,
-
-  css,
-  figma,
   git,
-  graphql,
-  html,
-  javascript,
-  nodejs,
-  rubyrails,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
 
   komikult,
   leaderboard,
