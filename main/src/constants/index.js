@@ -156,34 +156,34 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'GCP-Trio',
+    description: 'A Google cloud based 3-layer ELT pipeline Architecture to ingest petabytes of data',
     tags: [
       {
-        name: 'react',
+        name: 'Airflow',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'DBT',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Python',
         color: 'pink-text-gradient',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/manireddy1997',
+    demo: 'https://manireddy1997.github.io/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Dashboard',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'An automated pipeline to provide insights on uber data',
     tags: [
       {
-        name: 'react',
+        name: 'GCP',
         color: 'blue-text-gradient',
       },
       {
@@ -191,18 +191,18 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'Looker',
         color: 'pink-text-gradient',
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/manireddy1997',
+    demo: 'https://manireddy1997.github.io/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Serverless Pipeline',
+    description: 'A Low cost pipeline to deliver high scalable solution for data analysis',
     tags: [
       {
         name: 'nextjs',
@@ -218,8 +218,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/manireddy1997',
+    demo: 'https://manireddy1997.github.io/',
   },
   {
     id: 'project-4',
@@ -240,8 +240,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/manireddy1997',
+    demo: 'https://manireddy1997.github.io/',
   },
   {
     id: 'project-5',
@@ -263,8 +263,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/manireddy1997',
+    demo: 'https://manireddy1997.github.io/',
   },
 ];
 
