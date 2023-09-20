@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { close, menu, logo, logotext } from '../assets';
+import blog from './Blog';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -43,8 +44,10 @@ const Navbar = () => {
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
+                 {nav.id === 'Blog' ? ( <a href={"https://google.com"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )}
+                 {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
             </li>
+
           ))}
         </ul>
 
@@ -79,7 +82,8 @@ const Navbar = () => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                    <a href={`#${nav.id}`}>{nav.title}</a>
+                      {nav.id === 'Blog' ? ( <a href={"https://google.com"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )}
+                    {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
                   </li>
                 ))}
               </ul>

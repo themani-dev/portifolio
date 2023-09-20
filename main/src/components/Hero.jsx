@@ -89,6 +89,8 @@ const Hero = () => {
             alt="Mani"
           />
         </div>
+
+
       </section>
     </>
   );

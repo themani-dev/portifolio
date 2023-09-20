@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route,Routes} from 'react-router-dom';
 import {
   About,
   Contact,
@@ -7,6 +7,7 @@ import {
   Navbar,
   Tech,
   Projects,
+  Blog,
 } from './components';
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
 
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <About />
-        </div>
+        </div> 
 
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
@@ -41,6 +42,7 @@ const App = () => {
           <Contact />
         </div>
       </div>
+
     </BrowserRouter>
   );
 };
