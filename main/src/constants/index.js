@@ -223,11 +223,11 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'planner.io',
+    description: `An userfriendly planner for planning your day`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'flutter',
         color: 'blue-text-gradient',
       },
       {
@@ -235,7 +235,7 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'aws cognito',
         color: 'pink-text-gradient',
       },
     ],
@@ -245,20 +245,20 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Amphibot',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'An underwater survellience robot to monitor marine life and mineral deposits',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Raspbian',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'openCV',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'android',
         color: 'pink-text-gradient',
       },
     ],

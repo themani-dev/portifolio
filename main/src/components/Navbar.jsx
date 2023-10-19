@@ -82,7 +82,12 @@ const Navbar = () => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                      {nav.id === 'Blog' ? ( <a href={"https://google.com"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )}
+                      {/* {nav.id === 'Blog' ? ( <a href={"https://google.com"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )} */}
+                      {nav.id === 'BLOG' ? (
+                            <Link to="/blog">{nav.title}</Link>
+                          ) : (
+                            <a href={`#${nav.id}`}>{nav.title}</a>
+                          )}
                     {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
                   </li>
                 ))}

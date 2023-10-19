@@ -46,7 +46,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-            I am a Data Engineer by profession, tech enthusiast and hobbytist by passion. I like creating smart solutions for complex problems.
+            I work as a Data Engineer, driven by a deep enthusiasm for technology. Crafting intelligent solutions for intricate challenges is where I find my passion and satisfaction.
             </p>
           </div>
           <div
