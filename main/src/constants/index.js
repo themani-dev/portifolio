@@ -180,7 +180,7 @@ const projects = [
     id: 'project-2',
     name: 'Dashboard',
     description:
-      'An automated pipeline to provide insights on uber data',
+      'An automated pipeline to provide insights on Crime records in Sanfrancisco',
     tags: [
       {
         name: 'GCP',
@@ -196,8 +196,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/manireddy1997',
-    demo: 'https://manireddy1997.github.io/',
+    repo: 'https://github.com/manireddy1997/CrimeAnalysisSF#an-analytics-on-the-sanfrancisco-crimes',
+    demo: 'https://dashboard.themani.dev/',
   },
   {
     id: 'project-3',
