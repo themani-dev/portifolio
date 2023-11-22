@@ -44,7 +44,7 @@ const Navbar = () => {
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
-                 {nav.id === 'Blog' ? ( <a href={"https://google.com"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )}
+                 {nav.id === 'Blog' ? ( <a href={"https://blog-vy4ckab5wa-uc.a.run.app/"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )}
                  {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
             </li>
 
@@ -82,12 +82,12 @@ const Navbar = () => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                      {/* {nav.id === 'Blog' ? ( <a href={"https://google.com"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )} */}
-                      {nav.id === 'BLOG' ? (
+                      {nav.id === 'Blog' ? ( <a href={"https://blog-vy4ckab5wa-uc.a.run.app/"}>{nav.title}</a> ) : ( <a href={`#${nav.id}`}>{nav.title}</a> )}
+                      {/* {nav.id === 'BLOG' ? (
                             <Link to="/blog">{nav.title}</Link>
                           ) : (
                             <a href={`#${nav.id}`}>{nav.title}</a>
-                          )}
+                          )} */}
                     {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
                   </li>
                 ))}
