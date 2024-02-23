@@ -9,7 +9,7 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
-import myresume from '../assets/resume/Manikanta_Reddy_Kallam.pdf'
+import myresume from '../assets/resume/ManikantaReddy_Kallam.pdf'
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
