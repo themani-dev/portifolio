@@ -1,10 +1,13 @@
   steps:
   # Build the container image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'portifolio', '.']
-  # Push the container image to Container Registry
+    args: ['build', '-t', 'portifolio', './main/']
+  # Tag the container image to Container Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['tag', 'portifolio', 'us-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest']
+    args: ['tag', 'portifolio', 'us-central1-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest']
+  # Tag the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest']
   # Deploy container image to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
@@ -13,9 +16,12 @@
     - 'deploy'
     - 'portifolio'
     - '--image'
-    - 'gcr.io/hakoona-matata-298704/SERVICE-NAME:latest'
-    - 'us-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest'
+    - 'us-central1-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest'
     - '--region'
     - 'us-central1'
+    - '--service-account'
+    - 'admin-service-account@hakoona-matata-298704.iam.gserviceaccount.com'
   images:
-  - 'us-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest'
+  - 'us-central1-docker.pkg.dev/hakoona-matata-298704/portifolio/portifolio:latest'
+  options:
+    logging: CLOUD_LOGGING_ONLY
