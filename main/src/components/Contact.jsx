@@ -85,6 +85,13 @@ const Contact = () => {
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
               border-none font-medium"
+              required
+              onInvalid={(e) => {
+                e.target.setCustomValidity('You have a beautiful name, but how should I spell?');
+              }}
+              onInput={(e) => {
+                e.target.setCustomValidity('');
+              }}
             />
           </label>
           <label className="flex flex-col">
@@ -99,6 +106,13 @@ const Contact = () => {
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
               border-none font-medium"
+              required
+              onInvalid={(e) => {
+                e.target.setCustomValidity('Let`s make it formal for now. Please provide your e-mail');
+              }}
+              onInput={(e) => {
+                e.target.setCustomValidity('');
+              }}
             />
           </label>
           <label className="flex flex-col">
@@ -115,6 +129,7 @@ const Contact = () => {
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
               border-none font-medium resize-none"
+              required
             />
           </label>
 
