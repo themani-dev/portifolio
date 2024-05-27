@@ -197,12 +197,12 @@ const projects = [
     ],
     image: leaderboard,
     repo: 'https://github.com/manireddy1997/CrimeAnalysisSF#an-analytics-on-the-sanfrancisco-crimes',
-    demo: 'https://dashboard.themani.dev/',
+    demo: 'https://public.tableau.com/app/profile/manikanta.reddy.kallam/viz/SFCrimeAnalytics/plain?publish=yes',
   },
   {
     id: 'project-3',
-    name: 'Serverless Pipeline',
-    description: 'A Low cost pipeline to deliver high scalable solution for data analysis',
+    name: 'CNN Based Brain tumor Detection',
+    description: 'A project on early detection of Brain tumors using CNN and DeepLabV3',
     tags: [
       {
         name: 'nextjs',
@@ -218,8 +218,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/manireddy1997',
-    demo: 'https://manireddy1997.github.io/',
+    repo: 'https://github.com/themani-dev',
+    demo: 'https://themani-dev.github.io/',
   },
   {
     id: 'project-4',
@@ -240,8 +240,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/manireddy1997',
-    demo: 'https://manireddy1997.github.io/',
+    repo: 'https://github.com/themani-dev',
+    demo: 'https://themani-dev.github.io/',
   },
   {
     id: 'project-5',
@@ -263,8 +263,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/manireddy1997',
-    demo: 'https://manireddy1997.github.io/',
+    repo: 'https://github.com/themani-dev',
+    demo: 'https://themani-dev.github.io/',
   },
 ];
 
