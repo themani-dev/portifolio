@@ -201,7 +201,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'CNN Based Brain tumor Detection',
+    name: 'Brain Tumor Detection',
     description: 'A project on early detection of Brain tumors using CNN and DeepLabV3',
     tags: [
       {
