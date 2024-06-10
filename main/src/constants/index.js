@@ -11,6 +11,7 @@ import {
   nyeusi,
   coverhunt,
   kelhel,
+  paloaltosoft,
 
   infosys,
 
@@ -130,27 +131,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Firmware Developer',
-    company_name: 'Glean Solutions',
-    icon: coverhunt,
+    title: 'Software Developer',
+    company_name: 'PaloAlto Soft',
+    icon: paloaltosoft,
     iconBg: '#333333',
-    date: 'Nov 2018 - Jan 2020',
+    date: 'Mar 2019 - Jan 2020',
   },
   {
-    title: 'Data Engineer',
+    title: 'Systems Engineer (Data N Analytics)',
     company_name: 'Infosys',
     icon: infosys,
     iconBg: '#333333',
-    date: 'Feb 2020 - July 2022',
+    date: 'Feb 2020 - Feb 2021',
   },
   {
-    title: 'Data Engineer',
-    company_name: 'Freelancing',
-    icon: kelhel,
+    title: 'Sr Systems Engineer (Data Engineering)',
+    company_name: 'Infosys',
+    icon: infosys,
+    iconBg: '#333333',
+    date: 'Feb 2021 - July 2022',
+  },
+  {
+    title: 'Software Developer (Data Engineering)',
+    company_name: 'PaloAlto Soft',
+    icon: paloaltosoft,
     iconBg: '#333333',
     date: 'July 2022 - Present',
   },
-
 ];
 
 const projects = [
