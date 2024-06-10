@@ -44,6 +44,7 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import infosys from './company/infosys.png';
+import paloaltosoft from './company/paloaltosoft.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -102,4 +103,5 @@ export {
   kelhel,
 
   infosys,
+  paloaltosoft,
 };
