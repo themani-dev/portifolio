@@ -156,7 +156,7 @@ const experiences = [
     company_name: 'PaloAlto Soft',
     icon: paloaltosoft,
     iconBg: '#333333',
-    date: 'July 2022 - Present',
+    date: 'Sep 2022 - Present',
   },
 ];
 
