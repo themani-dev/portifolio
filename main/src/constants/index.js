@@ -131,28 +131,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Data Engineer',
+    title: 'Software Developer',
     company_name: 'PaloAlto Soft',
     icon: paloaltosoft,
     iconBg: '#333333',
     date: 'Mar 2019 - Jan 2020',
   },
   {
-    title: 'Systems Engineer (Data N Analytics)',
+    title: 'Systems Engineer - Data N Analytics',
     company_name: 'Infosys',
     icon: infosys,
     iconBg: '#333333',
     date: 'Feb 2020 - Feb 2021',
   },
   {
-    title: 'Sr Systems Engineer (Data Engineering)',
+    title: 'Senior Systems Engineer - Data Engineering',
     company_name: 'Infosys',
     icon: infosys,
     iconBg: '#333333',
     date: 'Feb 2021 - July 2022',
   },
   {
-    title: 'Software Developer (Data Engineering)',
+    title: 'Data Engineer',
     company_name: 'PaloAlto Soft',
     icon: paloaltosoft,
     iconBg: '#333333',
