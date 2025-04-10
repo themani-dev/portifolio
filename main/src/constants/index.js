@@ -137,6 +137,7 @@ const experiences = [
     icon: paloaltosoft,
     iconBg: '#333333',
     date: 'Mar 2019 - Jan 2020',
+    description: 'I was responsible for designing backend RESTful and GraphQL APIs for secure data retrieval for frontend applications, utilizing frameworks and services such as AWS, Python, the Serverless Framework, Lambda, S3, MongoDB, API Gateway, Cognito, CodePipeline, Amplify, and PostgreSQL. I successfully designed, developed, deployed, and tested comprehensive data solutions, including user registration, secure login, two-factor authentication, and payment portal integration. I implemented robust security measures to protect user data, including a secure login system and two-factor authentication via AWS Cognito, and integrated a seamless payment portal using Stripe. I managed the entire data lifecycle, from concept to deployment, ensuring timely delivery and adherence to project specifications, and collaborated closely with data scientists, stakeholders, and developers to align the data infrastructure with business goals using agile development practices. Additionally, I enabled CI/CD pipelines with AWS CodePipeline, reducing manual effort by three hours, constructed relational databases to store transactional details, facilitated the management of digital identities using AWS IAM, and interpreted data requirements to fulfill customer needs.',
   },
   {
     title: 'Systems Engineer - Data N Analytics',
@@ -144,6 +145,7 @@ const experiences = [
     icon: infosys,
     iconBg: '#333333',
     date: 'Feb 2020 - Feb 2021',
+    description: 'I was responsible for generating daily reports on production environment status and addressing ad-hoc client requirements using frameworks and services such as DataFlow, Cloud Functions, Airflow, BigQuery, Tableau, Google Data Studio, and CI/CD. I implemented Python-based automation to produce daily inbound file status reports, which reduced manual effort by 90% and significantly enhanced operational efficiency by ensuring the timely delivery of accurate reports. Additionally, I consistently fulfilled ad-hoc client requirements promptly, contributing to a 10% increase in profits. I developed CI/CD pipelines utilizing CodeBuild and GitHub to automate code deployment, thereby improving security compliance and eliminating manual intervention. Operating in an Agile environment, I prioritized customer feedback and involvement throughout the development process. Moreover, I designed and implemented Tableau dashboards to analyze and visualize revenue generation from advertising campaigns, providing actionable insights that facilitated data-driven decision-making and optimized revenue strategies for the e-commerce organization.',
   },
   {
     title: 'Senior Systems Engineer - Data Engineering',
@@ -151,6 +153,7 @@ const experiences = [
     icon: infosys,
     iconBg: '#333333',
     date: 'Feb 2021 - July 2022',
+    description: 'I enabled data modeling and multigrain insights on sales and advertisements running on an e-commerce portal using frameworks and services such as Google Cloud Platform, Python, DBT, Composer-Airflow, Flask, Cloud Functions, Cloud Run, BigQuery, Firestore, and DataFlow. I built a highly scalable 4-layer architecture (raw, curated, semantic, and consumption) to handle large workloads effectively and developed and maintained data pipelines and analytics solutions on GCP for efficient data processing and warehousing. I created data models and implemented automated data validation checks to ensure data quality, managed and optimized Firestore databases to ingest metadata for inbound files, reducing error rates by 30%, and utilized SQL and NoSQL databases to query and analyze datasets. I developed a data scraping tool with Flask and Pandas that reduced manual efforts by 70%, achieved metadata-driven orchestration of data pipelines with Composer (Airflow) for ETL operations, and leveraged DBT for data transformation, enabling modular and maintainable SQL codebases. Additionally, I created automated scripts to monitor daily file loading in cloud storage, improving efficiency and reducing processing time by 60% for internal reporting and interpretation. I collaborated with cross-functional teams to gather requirements and deliver data solutions that meet business needs and worked with business stakeholders to identify and understand key performance indicators, creating data models to support their needs.',
   },
   {
     title: 'Data Engineer',
@@ -158,6 +161,7 @@ const experiences = [
     icon: paloaltosoft,
     iconBg: '#333333',
     date: 'Sep 2022 - July 2024',
+    description: '',
   },
   {
     title: 'Data Engineer',
@@ -165,6 +169,7 @@ const experiences = [
     icon: itact,
     iconBg: '#333333',
     date: 'Sep 2024 - Present',
+    description: 'designed and optimized PySpark ETL pipelines for large-scale data processing and analytics, structuring databases and data warehouses to efficiently handle transactional and analytics data. Leveraging DBT, I built and optimized data transformation workflows, ensuring data consistency, quality, and performance. I developed modular, reusable DBT models to enhance query performance and maintainability, while implementing DBT tests to improve data accuracy and integrity, reducing production issues by 20%. Additionally, I automated DBT runs with Airflow DAGs, streamlining orchestration and ensuring timely data availability for business reports.',
   },
 ];
 
