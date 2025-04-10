@@ -12,6 +12,7 @@ import {
   coverhunt,
   kelhel,
   paloaltosoft,
+  itact,
 
   infosys,
 
@@ -131,7 +132,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Software Developer',
+    title: 'Software Developer Intern',
     company_name: 'PaloAlto Soft',
     icon: paloaltosoft,
     iconBg: '#333333',
@@ -156,7 +157,14 @@ const experiences = [
     company_name: 'PaloAlto Soft',
     icon: paloaltosoft,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Sep 2022 - July 2024',
+  },
+  {
+    title: 'Data Engineer',
+    company_name: 'Itact Tech',
+    icon: itact,
+    iconBg: '#333333',
+    date: 'Sep 2024 - Present',
   },
 ];
 

@@ -45,6 +45,7 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import infosys from './company/infosys.png';
 import paloaltosoft from './company/paloaltosoft.png';
+import itact from './company/itact.jpeg';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -104,4 +105,5 @@ export {
 
   infosys,
   paloaltosoft,
+  itact,
 };
