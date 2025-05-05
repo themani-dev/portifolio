@@ -13,6 +13,8 @@ import {
   kelhel,
   paloaltosoft,
   itact,
+  wellsfargo,
+  essenvia,
 
   infosys,
 
@@ -157,16 +159,16 @@ const experiences = [
   },
   {
     title: 'Data Engineer',
-    company_name: 'PaloAlto Soft',
-    icon: paloaltosoft,
+    company_name: 'Essenvia',
+    icon: essenvia,
     iconBg: '#333333',
     date: 'Sep 2022 - July 2024',
     description: '',
   },
   {
     title: 'Data Engineer',
-    company_name: 'Itact Tech',
-    icon: itact,
+    company_name: 'Wells Fargo',
+    icon: wellsfargo,
     iconBg: '#333333',
     date: 'Sep 2024 - Present',
     description: 'designed and optimized PySpark ETL pipelines for large-scale data processing and analytics, structuring databases and data warehouses to efficiently handle transactional and analytics data. Leveraging DBT, I built and optimized data transformation workflows, ensuring data consistency, quality, and performance. I developed modular, reusable DBT models to enhance query performance and maintainability, while implementing DBT tests to improve data accuracy and integrity, reducing production issues by 20%. Additionally, I automated DBT runs with Airflow DAGs, streamlining orchestration and ensuring timely data availability for business reports.',

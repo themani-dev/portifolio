@@ -46,6 +46,8 @@ import kelhel from './company/kelhel.png';
 import infosys from './company/infosys.png';
 import paloaltosoft from './company/paloaltosoft.png';
 import itact from './company/itact.jpeg';
+import wellsfargo from './company/wellsfargo.png';
+import essenvia from './company/essenvia.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -106,4 +108,6 @@ export {
   infosys,
   paloaltosoft,
   itact,
+  wellsfargo,
+  essenvia,
 };
