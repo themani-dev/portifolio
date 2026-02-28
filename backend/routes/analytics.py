@@ -4,13 +4,25 @@ from models.analytics import CommandAnalytics, AnalyticsSummary
 import os
 import logging
 from typing import List
+from pathlib import Path
+from dotenv import load_dotenv
+import certifi
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
 
+
+ROOT_DIR = Path(__file__).parent.parent
+load_dotenv(ROOT_DIR / '.env')
+
 # MongoDB connection
-mongo_url = os.environ.get('MONGO_URL')
-client = AsyncIOMotorClient(mongo_url)
+mongo_url = os.environ['MONGO_URL']
+
+client = AsyncIOMotorClient(
+    mongo_url,
+    tls=True,
+    tlsCAFile=certifi.where()
+)
 db = client[os.environ.get('DB_NAME', 'portfolio_db')]
 
 @router.post("/analytics/command", status_code=status.HTTP_201_CREATED)

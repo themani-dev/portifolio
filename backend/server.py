@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field, ConfigDict
 from typing import List
 import uuid
 from datetime import datetime, timezone
+import certifi
 
 # Import routes
 from routes.contact import router as contact_router
@@ -20,7 +21,12 @@ load_dotenv(ROOT_DIR / '.env')
 
 # MongoDB connection
 mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
+
+client = AsyncIOMotorClient(
+    mongo_url,
+    tls=True,
+    tlsCAFile=certifi.where()
+)
 db = client[os.environ.get('DB_NAME', 'portfolio_db')]
 
 # Create the main app without a prefix
@@ -28,15 +34,16 @@ app = FastAPI(title="Portfolio Terminal API")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
+print(f"MongoDB URL: {mongo_url}")  # Debugging line to check the MongoDB URL
 
 # Implement CORS middleware to allow requests from the frontend
-app.add_middleware(
-    CORSMiddleware,
-    allow_credentials=True,
-    allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_credentials=True,
+#     allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 # Define Models
 class StatusCheck(BaseModel):
@@ -85,13 +92,13 @@ api_router.include_router(analytics_router, tags=["Analytics"])
 # Include the router in the main app
 app.include_router(api_router)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_credentials=True,
-    allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_credentials=True,
+#     allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 # Configure logging
 logging.basicConfig(
