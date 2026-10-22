@@ -34,16 +34,22 @@ app = FastAPI(title="Portfolio Terminal API")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
-print(f"MongoDB URL: {mongo_url}")  # Debugging line to check the MongoDB URL
-
-# Implement CORS middleware to allow requests from the frontend
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_credentials=True,
-#     allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
+# CORS: allow only the configured frontend origins (comma-separated env var).
+# Never log the connection string: it contains database credentials.
+CORS_ORIGINS = [
+    o.strip()
+    for o in os.environ.get(
+        'CORS_ORIGINS', 'https://themani.dev,http://localhost:3000'
+    ).split(',')
+    if o.strip()
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=CORS_ORIGINS,
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type"],
+)
 
 # Define Models
 class StatusCheck(BaseModel):
@@ -91,14 +97,6 @@ api_router.include_router(analytics_router, tags=["Analytics"])
 
 # Include the router in the main app
 app.include_router(api_router)
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_credentials=True,
-#     allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
 
 # Configure logging
 logging.basicConfig(
